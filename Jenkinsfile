@@ -18,7 +18,8 @@ pipeline{
 	agent { docker 
 		{ 
 			image 'maven: 3.6.3' 
-			args '-u root:root'
+			//args '-u root:root'
+			args '--tmpfs /.config'
 		} 
 	}
 	stages{

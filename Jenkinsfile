@@ -13,7 +13,7 @@
 //declarative
 
 pipeline{
-	//agent any
+	agent any
 
 	/*agent { docker 
 		{ 
